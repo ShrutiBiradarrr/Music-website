@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Music website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar">
+            <img src="WhatsApp Image 2021-05-15 at 2.13.13 PM.jpeg" class="logo">
+
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">SPECIFICATIONS</a></li>
+                <li><a href="#">PROUDCTS</a></li>
+                <li><a href="#">CONNECT</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <div class="left-col">
+                <h1>Feel The<br> Music</h1>
+            </div>
+            <div class="right-col">
+                <ol>
+                    <li>Desposito</li>
+                    <li>Sub Urban Cradles</li>
+                    <li>Hymn For Weekend</li>
+                </ol>
+                <ul class="playbutton">
+                    <li>
+                        <img src="play button.png" id="icon">
+                    </li>
+                    <br><br>
+                    <li> <img src="play button.png" id="icon1"></li>
+                    <br><br>
+                    <li> <img src="play button.png" id="icon1"></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <audio id="mySong">
+        <source src="WhatsApp Audio 2021-05-15 at 1.20.48 PM.mpeg" type="audio/mp3">
+    </audio>
+    <audio id="mySong1">
+        <source src="WhatsApp Audio 2021-05-15 at 3.55.31 PM (1).mpeg" type="audio/mp3">
+    </audio>
+    <audio id="mySong1">
+        <source src="WhatsApp Audio 2022-10-20 at 1.19.41 PM.mpeg" type="audio/mp3">
+    </audio>
+    <script>
+        var mySong = document.getElementById("mySong");
+        var icon = document.getElementById("icon");
+        icon.onclick = function () {
+            if (mySong.paused) {
+                mySong.play();
+                icon.src = "WhatsApp Image 2021-05-15 at 3.09.15 PM.jpeg";
+            } else {
+                mySong.pause();
+                icon.src = "play button.png";
+            }
+        }
+        var mySong1 = document.getElementById("mySong1");
+        var icon1 = document.getElementById("icon1");
+        icon1.onclick = function () {
+            if (mySong1.paused) {
+                mySong1.play();
+                icon1.src = "WhatsApp Image 2021-05-15 at 3.09.15 PM.jpeg";
+            } else {
+                mySong1.pause();
+                icon1.src = "play button.png";
+            }
+        }
+        var mySong2 = document.getElementById("mySong2");
+        var icon2 = document.getElementById("icon2");
+        icon1.onclick = function () {
+            if (mySong2.paused) {
+                mySong2.play();
+                icon2.src = "WhatsApp Image 2021-05-15 at 3.09.15 PM.jpeg";
+            } else {
+                mySong2.pause();
+                icon2.src = "play button.png";
+            }
+        }
+
+    </script>
+</body>
+
+</html>

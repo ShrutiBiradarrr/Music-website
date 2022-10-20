@@ -1,0 +1,97 @@
+
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    background: url("rBjn7e.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+}
+.navbar{
+    width: 88%;
+    margin: auto;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.logo{
+    width: 70px;
+    cursor: pointer;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin:  0 10px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: seashell;
+    font-size: 15px;
+}
+.content{
+    width: 100;
+    position: absolute;
+    top: 30;
+}
+.left-col{
+    margin-left: 6%;
+}
+.left-col h1{
+    font-size: 70px;
+    color:rgb(7, 224, 224);
+    line-height: 70px;
+    float: left;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.right-col{
+    float: right;
+    margin-right: 6%;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+}
+.right-col ol{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: 15%;
+    margin: 35px;
+    padding: 3px;
+    display: block;
+
+}
+.right-col ol li{
+    padding:15px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  
+}
+#icon{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+
+}
+#icon1{
+width:50px;
+height: 50px;
+display: inlines;
+}
+#icon2{
+    width:50px;
+    height: 50px;
+    display: inlines;
+    }
+.playbutton{
+    list-style: none;
+    display: inline-block;
+    margin:  0 10px;
+    padding:0px;
+}
